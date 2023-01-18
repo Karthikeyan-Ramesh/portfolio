@@ -4,12 +4,31 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ .skill-icon {
+  border-radius: 10% !important;
+  border: #04AA6D 2px solid;
+  transition: transform .1s;
+ }
+ .skill-icon:hover{
+  transform: scale(1.1);
+ }
+ .pcolor{
+  color: rgb(48, 46, 46);
+ }
+ .pcolor > em {
+  color: #FFD700;
+  font-weight: bold;
+ }
  .icon {
   transition: transform .1s;
  }
  .icon:hover {
   animation: ovi 5s linear infinite;
 }
+h2 span{
+  color: rgb(19, 212, 58);
+}
+
 h4 span{
   color: rgb(19, 212, 58);
 }
