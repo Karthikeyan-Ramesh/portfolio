@@ -8864,6 +8864,8 @@ h1, h2, h3, h4, h5,
     background: #04AA6D; }
     .services-1:hover .icon i {
       color: #fff; }
+      .services-1:hover p {
+        color: #fff; }
     .services-1:hover h3 {
       color: #000000; }
       .services-1:hover h3:after {
